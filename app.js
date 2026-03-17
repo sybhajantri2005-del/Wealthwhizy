@@ -29,8 +29,7 @@ const messagesDiv = document.getElementById('chat-messages');
 const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
-const API_KEY = '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';
-
+const API_KEY = 'process.env.GROQ_API_kEY';
 const SYSTEM_PROMPT = `You are a friendly and engaging financial analyst assistant.
 You have access to real financial data for Apple, Microsoft and Tesla (2023-2025).
 
